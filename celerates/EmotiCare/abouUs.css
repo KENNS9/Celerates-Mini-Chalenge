@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: rgba(255, 229, 180, 0.9); /* Kuning dengan transparansi 80% */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #111827;
+  font-weight: normal; /* Remove bold */
+  padding: 10px 15px;
+}
+
+/* Hover effect: underline and bold */
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Align buttons to the right */
+.navbar-nav.ms-auto .btn {
+  margin-left: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: Literata;
+  background-color: #fff2e0;
+}
+
+.header {
+  background-image: url(Foto/home_crop.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.header h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.content {
+  flex-direction: column;
+  align-items: center;
+  width: 1304px;
+  margin-bottom: 1000px;
+  margin: auto;
+  display: flex;
+}
+.content img {
+  display: block;
+  margin: 0 auto; /* Add this to center the image horizontally */
+}
+
+.text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #1e1e2f;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 0;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.copyright p {
+  color: #ffffff;
+}
